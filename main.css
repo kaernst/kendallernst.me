@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*@media (max-width:1000px) {
+  #kendall {
+    font-size: 40px;
+    background: #FFCE3E;
+    font-family: "Arial", Arial, sans-serif;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+  }
+}*/
+
+#kendall {
+  font-size: 120px;
+  background: #9FE8D7;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  vertical-align: bottom;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#from {
+  font-size: 30px;
+  background: #9FE8D7;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#email {
+  font-size: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #FFCE3E;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+#email2 {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+#prof {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+#ein {
+  width: 175px;
+  display: block;
+  margin: auto;
+}
+
+
+#sample {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+#sec_head {
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight: 200;
+  padding-top: 10px;
+  font-variant: small-caps;
+}
+
+#descrip {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+#descrip2 {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#sec_head2 {
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: 200;
+  padding-top: 10px;
+  font-variant: small-caps;
+}
+
+#descrip3 {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #EDE8D2;
+}
+
+.header {
+
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 20px;
+    margin: auto;
+    background: #EDE8D2;
+}
+
+.column.right {
+  width: 70%;
+  margin: auto;
+  background: #EDE8D2;
+}
+
+.column.left {
+    width: 300px;
+    height: 900px;
+    margin: auto;
+    background: #FFCE3E;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 550px)
+  { .column.left, .column.right
+    {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
